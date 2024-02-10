@@ -1,0 +1,11 @@
+ให้ SQLC สร้าง JSON tags ใน struct
+emit_json_tags: true
+
+ให้ SQLC ไม่สร้าง prepared queries
+emit_prepared_queries: false
+
+ระบุให้ SQLC ไม่สร้าง interfaces 
+emit_interface: false
+
+ระบุให้ SQLC ไม่สร้าง struct ที่มีชื่อที่ถูกต้องตามตารางใน database 
+emit_exac_table_names: false
